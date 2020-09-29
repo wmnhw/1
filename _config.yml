@@ -66,6 +66,9 @@ links:
   - name:         关于
     url:          /about
     external:     false
+  - name:         简导航
+    url:          /jiandaohang
+    external:     false
 
 #添加分类步骤：
 #1：在_config.yml links1及blog_中添加对应内容
