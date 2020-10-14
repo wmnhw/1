@@ -15,6 +15,7 @@ layout: default
 		  <span id="busuanzi_container_page_pv"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>
 		  </div>
         </div>
+        {{page.content | markdownify}}
 <div class="reward">
 		<div class="reward-button">赏 <span class="reward-code">
 			<span class="wechat-code"> <img class="wechat-img wdp-appear" src="/assets/img/wechatimg.jpg"><b>微信打赏</b> </span>
@@ -22,7 +23,6 @@ layout: default
 		</div>
 		<p class="reward-notice">您的打赏是对我最大的鼓励！</p>
 	</div>
-        {{page.content | markdownify}}
         <div class="page-footer">
           <div class="page-tag">
             <span>Tags:</span>
