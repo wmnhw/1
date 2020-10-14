@@ -109,12 +109,12 @@ blog_4:    image
 
 timezone: Asia/Shanghai
 
-valine:
+
+valine_comment:
   enable: true
 # app_id
-  leancloud_appid: uBv7wJrvq7LQbG8QOSINubf0-gzGzoHsz
+  leancloud_appid: knEe7Rc6frt1ygf3gAwBTbnB-gzGzoHsz
 # app_key
-  leancloud_appkey: YXgmdhESQuLhtlShorL45RCC
+  leancloud_appkey: 2yxyYCewv3lUoTOpl77PT0QX
 # placeholde
   placeholder: “在这里写评论"
-  
