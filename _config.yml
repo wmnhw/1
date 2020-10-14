@@ -113,8 +113,8 @@ timezone: Asia/Shanghai
 valine_comment:
   enable: true
 # app_id
-  leancloud_appid: knEe7Rc6frt1ygf3gAwBTbnB-gzGzoHsz
+  leancloud_appid: uBv7wJrvq7LQbG8QOSINubf0-gzGzoHsz
 # app_key
-  leancloud_appkey: 2yxyYCewv3lUoTOpl77PT0QX
+  leancloud_appkey: YXgmdhESQuLhtlShorL45RCC
 # placeholde
   placeholder: “在这里写评论"
