@@ -55,16 +55,15 @@ layout: default
 
          
 
-		  {% include new-old.html %}
-		
+		  {% include new-old.html %}	
+        </div>
+	      
         <!-- Valine 评论框 start -->
 	       {% if site.valine.enable %}
                       {% include valine_comments.html %}
            {% endif %}
 	       <!-- Valine 评论框 end -->
-		
-        </div>
-
+         </div>
 	      
         {% include author-box.html %}
         {% include recent-post.html %}
