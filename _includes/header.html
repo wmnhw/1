@@ -42,14 +42,6 @@
 
 			 {% if link.type == site.blog_5 %}
 				{% for post in site.posts %}
-				   {% if post.abouttest%}
-						{% assign count = count | plus: 1 %}
-				   {% endif %}
-				 {% endfor %}
-			 {% endif %}
-		     
-		         {% if link.type == site.blog_6 %}
-				{% for post in site.posts %}
 				   {% if post.novel%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
