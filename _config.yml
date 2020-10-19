@@ -106,7 +106,7 @@ blog_1:    recent
 blog_2:    essays
 blog_3:    video
 blog_4:    image
-
+blog_5:    novel
 
 #permalink: /:year/:month/:day/:title.html
 
