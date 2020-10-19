@@ -97,6 +97,10 @@ links1:
     url:          /myblog/image
     type:         image
     external:     false
+  - name:        小说
+    url:          /myblog/novel
+    type:         image
+    external:     false
 
 blog_1:    recent
 blog_2:    essays
