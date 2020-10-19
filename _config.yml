@@ -99,7 +99,7 @@ links1:
     external:     false
   - name:        小说
     url:          /myblog/novel
-    type:         image
+    type:         novel
     external:     false
 
 blog_1:    recent
