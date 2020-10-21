@@ -32,7 +32,7 @@ csdn:
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus修改成你自己的
-discus_identifier: 我们男孩网
+discus_identifier: 
 # Add your discus identifier
 
 #intensedebate修改成你自己的
