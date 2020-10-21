@@ -92,10 +92,6 @@ links1:
     url:          /myblog/essays
     type:         essays
     external:     false
-  - name:         视频
-    url:          /myblog/video
-    type:         video
-    external:     false
   - name:         图片
     url:          /myblog/image
     type:         image
@@ -103,6 +99,10 @@ links1:
   - name:        小说
     url:          /myblog/novel
     type:         novel
+    external:     false
+  - name:         视频
+    url:          /myblog/video
+    type:         video
     external:     false
 
 blog_1:    recent
