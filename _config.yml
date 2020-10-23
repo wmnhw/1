@@ -44,7 +44,7 @@ baidu-analysis:
 
 
 # Paginate
-paginate: 18
+paginate: 12
 paginate_path: /page:num/
 
 # Build settings
