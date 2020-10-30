@@ -89,19 +89,19 @@ links1:
     type:         recent
     external:     false
   - name:         随笔
-    url:          /myblog/essays
+    url:          /blog/essays
     type:         essays
     external:     false
   - name:         图片
-    url:          /myblog/image
+    url:          /blog/image
     type:         image
     external:     false
   - name:        小说
-    url:          /myblog/novel
+    url:          /blog/novel
     type:         novel
     external:     false
   - name:         视频
-    url:          /myblog/video
+    url:          /blog/video
     type:         video
     external:     false
 
