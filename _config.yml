@@ -1,5 +1,5 @@
-title: 我们男孩网 - 分享帅哥图片和视频的个人博客
-description: "哈哈哈"
+title: 我们男孩网
+description: 我爱
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wmnhw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
