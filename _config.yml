@@ -104,12 +104,17 @@ links1:
     url:          /blog/video
     type:         video
     external:     false
+  - name:         语音
+    url:          /blog/voice
+    type:         voice
+    external:     false
 
 blog_1:    recent
 blog_2:    essays
 blog_3:    video
 blog_4:    image
 blog_5:    novel
+blog_6:    voice
 
 #permalink: /:year/:month/:day/:title.html
 
