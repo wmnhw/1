@@ -1,8 +1,5 @@
 title: 我们男孩网
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: 分享帅哥图片和视频的个人博客
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wmnhw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
