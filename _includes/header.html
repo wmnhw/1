@@ -26,7 +26,7 @@
 
 			 {% if link.type == site.blog_3 %}
 				{% for post in site.posts %}
-				   {% if post.video%}
+				   {% if post.image%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -34,7 +34,7 @@
 
 			 {% if link.type == site.blog_4 %}
 				{% for post in site.posts %}
-				   {% if post.image%}
+				   {% if post.novel%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
@@ -42,7 +42,7 @@
 
 			 {% if link.type == site.blog_5 %}
 				{% for post in site.posts %}
-				   {% if post.novel%}
+				   {% if post.video%}
 						{% assign count = count | plus: 1 %}
 				   {% endif %}
 				 {% endfor %}
