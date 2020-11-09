@@ -111,9 +111,9 @@ links1:
 
 blog_1:    recent
 blog_2:    essays
-blog_3:    video
-blog_4:    image
-blog_5:    novel
+blog_3:    image
+blog_4:    novel
+blog_5:    video
 blog_6:    voice
 
 #permalink: /:year/:month/:day/:title.html
