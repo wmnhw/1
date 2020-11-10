@@ -3,7 +3,7 @@ layout: home-page
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
-  {% for post in site.posts offset:0 limit:<9 %}	
+  {% for post in site.posts limit:9 %}	
   {% if post.voice%}
 	  <li>
 		<div class="post-card">
