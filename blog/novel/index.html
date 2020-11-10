@@ -3,8 +3,8 @@ layout: home-page
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
-  {% for post in site.posts limit:14 %}
-  {% if post.novel%}
+  {% for post in site.posts %}
+  {% if post.novel limit:3 %}
 	  <li>
 		<div class="post-card">
 
