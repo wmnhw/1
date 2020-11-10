@@ -1,11 +1,10 @@
 ---
 layout: home-page
-paginate: 3
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
   {% for post in site.posts %}
-  {% if post.novel%}
+  {% if post.novel paginate: 3 %}
 	  <li>
 		<div class="post-card">
 
