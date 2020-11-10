@@ -1785,7 +1785,7 @@ pre code {
 /*滚动到顶部*/
 .top {
   position: fixed;
-  bottom: 25px;
+  bottom: 20px;
   background-color: #333333;
   -webkit-border-radius: 0.3rem;
   border-radius: 0.3rem;
@@ -1808,7 +1808,7 @@ pre code {
 }
 
 .top.up {
-  right: 30px;
+  right: 25px;
 }
 
 .top:hover {
