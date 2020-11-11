@@ -3,7 +3,7 @@ layout: home-page
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}	
+  {% for post in site.posts limit:36 %}	
   {% if post.voice%}
 	  <li>
 		<div class="post-card">
@@ -28,3 +28,7 @@ layout: home-page
   {% endif %}	
   {% endfor %}  	
 </ol>
+</ol>
+<div class="pagination clearfix">
+  <a href="/tags/#语音" class="next">更多 <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+</div>
