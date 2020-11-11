@@ -1,3 +1,8 @@
+---
+layout: home-page
+title: 
+permalink: /archive/
+---
 <div class="post">
     <h2>Archive</h2>
     {% assign postsByMonthYear = site.posts | group_by_exp:"post", "post.date | date: '%b %Y'"  %}
