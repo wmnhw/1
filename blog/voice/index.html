@@ -3,7 +3,7 @@ layout: home-page
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
-  {% for tag in site.tags limit:36 %}	
+  {% for tag in post.tags limit:36 %}	
   {% if tags.voice%}
 	  <li>
 		<div class="post-card">
