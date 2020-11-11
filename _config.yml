@@ -45,7 +45,7 @@ baidu-analysis:
 
 # Paginate
 paginate: 9
-paginate_path: /page:num/
+paginate_path: /blog/voice/page:num/
 
 # Build settings
 markdown: kramdown
