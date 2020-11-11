@@ -84,37 +84,25 @@ label2:  </span>
 
 
 links1:
-  - name:         所有
-    url:          /
-    type:         recent
+  - name:         主页
+    url:          https://sgxnsck.top
     external:     false
-  - name:         随笔
-    url:          /blog/essays
-    type:         essays
+  - name:         关于
+    url:          /about
     external:     false
-  - name:         图片
-    url:          /blog/image
-    type:         image
+  - name:         标签
+    url:          /tags
     external:     false
-  - name:        小说
-    url:          /blog/novel
-    type:         novel
-    external:     false
-  - name:         视频
-    url:          /blog/video
-    type:         video
-    external:     false
-  - name:         语音
-    url:          /blog/voice
-    type:         voice
+  - name:         简导航
+    url:          /jiandaohang
     external:     false
 
-blog_1:    recent
-blog_2:    essays
-blog_3:    image
-blog_4:    novel
-blog_5:    video
-blog_6:    voice
+# blog_1:    recent
+# blog_2:    essays
+# blog_3:    image
+# blog_4:    novel
+# blog_5:    video
+# blog_6:    voice
 
 #permalink: /:year/:month/:day/:title.html
 
