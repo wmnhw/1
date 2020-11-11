@@ -59,19 +59,19 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 imagepath: 
 
-links:
-  - name:         主页
-    url:          https://sgxnsck.top
-    external:     false
-  - name:         关于
-    url:          /about
-    external:     false
-  - name:         标签
-    url:          /tags
-    external:     false
-  - name:         简导航
-    url:          /jiandaohang
-    external:     false
+#links:
+#  - name:         主页
+#    url:          https://sgxnsck.top
+#    external:     false
+#  - name:         关于
+#    url:          /about
+#    external:     false
+#  - name:         标签
+#    url:          /tags
+#    external:     false
+#  - name:         简导航
+#    url:          /jiandaohang
+#    external:     false
  
 
 #添加分类步骤：
