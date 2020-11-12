@@ -6,6 +6,7 @@ description: Hello World！
 img: post-2.jpg # Add image post (optional)
 tags: [随笔]
 author: # Add name author (optional)
+category: [essays]
 essays: true
 ---
 
