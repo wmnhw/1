@@ -59,53 +59,6 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 imagepath: 
 
-#links:
-#  - name:         主页
-#    url:          https://sgxnsck.top
-#    external:     false
-#  - name:         关于
-#    url:          /about
-#    external:     false
-#  - name:         标签
-#    url:          /tags
-#    external:     false
-#  - name:         简导航
-#    url:          /jiandaohang
-#    external:     false
- 
-
-#添加分类步骤：
-#1：在_config.yml links1及blog_中添加对应内容
-#2：在_includes里面headr.html中添加对应内容
-#3：在根目录blog文件中创建对应内容
-
-#label1: <span style="font-size:12px">Publish by
-#label2:  </span>
-
-
-#links1:
-#  - name:         主页
-#    url:          https://sgxnsck.top
-#    external:     false
-#  - name:         关于
-#    url:          /about
-#    external:     false
-#  - name:         归档
-#    url:          /archive
-#    external:     false
-#  - name:         标签
-#    url:          /tags
-#    external:     false
-#  - name:         简导航
-#    url:          /jiandaohang
-#    external:     false
-
-# blog_1:    recent
-# blog_2:    essays
-# blog_3:    image
-# blog_4:    novel
-# blog_5:    video
-# blog_6:    voice
 
 #permalink: /:year/:month/:day/:title.html
 
