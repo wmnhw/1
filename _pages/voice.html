@@ -6,10 +6,11 @@ permalink: /voice/
 <br />
 <br />
 {% for category in site.categories %}
+{% if post.voice%}
 <h3>{{ category | first }}({{ category | last | size }})</h3>
 <ul class="arc-list">
     {% for post in category.last %}
-       <li><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date | date_to_string }}
+       <li><a href="{{ post.url }}">{{ post.title }}</a>
        </li>
     {% endfor %}
 </ul>
