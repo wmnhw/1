@@ -6,7 +6,7 @@ permalink: /archive/
 <div class="post">
     <br />
     <br />
-    {% assign postsByMonthYear = site.posts | group_by_exp:"post", "post.date | date: '%m/%Y'"  %}
+    {% assign postsByMonthYear = site.posts | group_by_exp:"post", "post.date | date: '%Y年%m月'"  %}
     {% for monthYear in postsByMonthYear %}
       <h3>{{ monthYear.name }}</h3>
         <ul>
