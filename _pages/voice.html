@@ -4,7 +4,7 @@ title: 语音
 permalink: /voice/
 ---
 {% for category in site.categories %}
-<h2>{{ category | first }}</h2>{{ (0..site.category.size) }}
+<h3>{{ category | first }}({{ category | last | size }})</h3>
 <ul class="arc-list">
     {% for post in category.last %}
        <li>{{ post.date | date:"%d/%m/%Y"}}
