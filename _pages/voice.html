@@ -5,8 +5,7 @@ permalink: /voice/
 ---
 <br />
 <br />
-{% for category in site.categories %}
-{% if post.voice%}
+{% for category in site.categories.voice %}
 <h3>{{ category | first }}({{ category | last | size }})</h3>
 <ul class="arc-list">
     {% for post in category.last %}
