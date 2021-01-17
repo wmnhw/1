@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 permalink: ':year/:month/:day/:title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wmnhw.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
 author: 我们男孩网
