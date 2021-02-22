@@ -1,4 +1,4 @@
-title: 我们男孩网
+title: 型男网
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.wmnhw.top" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: 我们男孩网
+author: 型男网
 author-pic: wmnhw-face.jpg
 about-author: 分享帅哥图片和视频的个人博客
 #修改成你自己的
