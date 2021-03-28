@@ -7,13 +7,13 @@
         // 给图片添加链接
         $(document).ready(function() {
             $("p img").each(function() {
-                var strA = "<a data-fancybox='gallery' href='" + this.src + "'></a>";
+                var strA = "<a data-fancybox='fancybox' href='" + this.src + "'></a>";
                 $(this).wrapAll(strA);
             });
         });
     
         // fancybox
-        $("#gallery").fancybox({
+        $("#fancybox").fancybox({
                                   openEffect    : 'elastic',
                                   closeEffect   : 'elastic',
                               });
