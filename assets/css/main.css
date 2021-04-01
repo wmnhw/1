@@ -1797,7 +1797,7 @@ pre code {
   text-align: center;
   cursor: pointer;
   -webkit-transition: all .25s ease;
-  transition: all .25s ease;
+  transition: transform 200ms ease-in-out;
   right: -100px;
   z-index: 10;
   opacity: .5;
