@@ -769,7 +769,7 @@ template {
 }
 
 html, body {
-  height: 100%;
+  height: auto;
   overflow-x: hidden;
 }
 
@@ -784,8 +784,8 @@ body {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-overflow-scrolling: touch;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
