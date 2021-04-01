@@ -769,8 +769,9 @@ template {
 }
 
 html, body {
-  height: auto;
-  overflow-x: hidden;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 html {
