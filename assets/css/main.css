@@ -786,7 +786,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   color: #311e3e;
@@ -913,7 +912,7 @@ pre code {
 }
 
 .main-header .logo {
-  width: 50%;
+  /*width: 50%;*/
   text-align: center;
 }
 
@@ -952,11 +951,12 @@ pre code {
   display: block;
   padding: 15px 0;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #311e3e;
 }
+ /*text-transform: uppercase;*/
+
 
 .main-nav ul li a:hover {
   opacity: .8;
@@ -982,7 +982,6 @@ pre code {
   color: #311e3e;
   -webkit-transition: all .4s;
   transition: all .4s;
-  padding: 10px;
 }
 
 .menu-icon:hover,
@@ -1074,7 +1073,7 @@ pre code {
   position: relative;
   list-style: none;
   float: left;
-  width: 50%;
+  width: 32.333%;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -1084,13 +1083,20 @@ pre code {
 }
 
 .post-card {
-  position: relative;
+    position: relative;
+    width: 99%;
+    margin: 0 0.5% 1% 0.5%;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 .post-card .post-card-image {
   display: block;
   width: 100%;
-  min-height: 150px;
+  min-height: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1121,11 +1127,11 @@ pre code {
 .post-card .post-card-body .post-card-title {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 18px;
   color: #fff;
   margin: 0 0 10px;
 }
+/*text-transform: uppercase;*/
 
 .post-card .post-card-body .post-card-title:hover {
   opacity: .8;
@@ -1134,9 +1140,9 @@ pre code {
 .post-card .post-card-body .tag {
   text-decoration: none;
   font-size: 10px;
-  text-transform: uppercase;
   color: #fff;
 }
+/*text-transform: uppercase;*/
 
 .post-card .post-card-body .tag:hover {
   text-decoration: underline;
@@ -1230,8 +1236,7 @@ pre code {
 
 .page-footer {
   margin-top: 30px;
-  padding-bottom: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   border-bottom: 1px solid #d9d9d9;
 }
 
@@ -1761,6 +1766,10 @@ pre code {
     margin: 0 0 15px;
   }
 }
+
+
+
+
 
 
 /*底部链接*/
