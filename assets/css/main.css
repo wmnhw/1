@@ -769,7 +769,7 @@ template {
 }
 
 html, body {
-  height: 100%;
+  height: auto;
   overflow-x: hidden;
 }
 
