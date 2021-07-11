@@ -31,7 +31,18 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   
-		
+	<script>
+       (function(){
+	       if('{{ page.password }}'){
+                   if (prompt('请输入密码') !== '{{ page.password }}'){
+                       alert('密码错误');
+                       window.close();
+                       window.history.go(-1);
+                                                history.back(-1);
+                   }
+               }
+        })();
+</script>	
 	<!--百度统计-->
 	<!-- <script>
 		var _hmt = _hmt || [];
