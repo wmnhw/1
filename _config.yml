@@ -91,10 +91,10 @@ valine:
 
 
 defaults:
-    -
-      scope:
-        path: ""
-        type: "posts"
-      values:
-        layout: "post"
-        comments: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
