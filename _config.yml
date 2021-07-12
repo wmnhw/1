@@ -97,4 +97,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: true # 默认为所有博客文章启用评论
