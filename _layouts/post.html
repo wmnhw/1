@@ -17,7 +17,7 @@ layout: default
         </div>
         {{page.content | markdownify}}
 	<img src="{{site.imagepath}}/assets/img/Subscriptionimg.jpg" width="100%" height="100%"/>
-	<hr style="height:1px;border:none;border-top:1px solid #d9d9d9;" />      
+	<hr style="height:1px;border:none;border-top:1px solid #d9d9d9;">      
         <div class="page-footer">
           <div class="page-tag">
             <span>标签:</span>
@@ -47,7 +47,7 @@ layout: default
         <!-- Valine 评论框 start -->
 	       {% if page.comments == true and site.valine.enable %}
                       {% include valine_comments.html %}
-	       <hr style="height:1px;border:none;border-top:1px solid #d9d9d9;" />
+	       <hr style="height:1px;border:none;border-top:1px solid #d9d9d9;">
            {% endif %}       
 	       <!-- Valine 评论框 end -->
           
