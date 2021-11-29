@@ -42,14 +42,14 @@ layout: default
 	        <p class="reward-notice">喜欢请打赏，鼓励我一下！</p>
 	</div>
 
-		  {% include new-old.html %}	
+	        {% include new-old.html %}	
         </div>    
         <!-- Valine 评论框 start -->
-	       {% if page.comments == true and site.valine.enable %}
+	        {% if page.comments == true and site.valine.enable %}
                       {% include valine_comments.html %}
-	       {% endif %}
-	       <hr style="height:1px;border:none;border-top:1px solid #d9d9d9;">
-	       <!-- Valine 评论框 end -->
+	        {% endif %}
+	        <hr style="height:1px;border:none;border-top:1px solid #d9d9d9;">
+	        <!-- Valine 评论框 end -->
           
 	      
         {% include author-box.html %}
