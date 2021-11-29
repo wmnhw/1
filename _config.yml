@@ -79,6 +79,7 @@ valine:
   enable: true
   appid:  3BIBAU6V5KA6yhjMIHk30fmt-MdYXbMMI # your leancloud app id
   appkey: 2vtXjLOnka68I2MYOvSuIrij # your leancloud app key
+  serverURLs: https://3bibau6v.api.lncldglobal.com
   placeholder: 说点什么吧… # comment box placeholder
   avatar: # gravatar style
   guest_info: 昵称,邮件,网址 # custom comment header
