@@ -11,9 +11,10 @@ layout: default
       <div class="page-content">
         <div class="header-page">
           <h1 class="page-title">{{page.title}}</h1>
-          <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y/%m/%d'}}</time>
+          <div class="page-date">
+		  <time datetime="{{page.date}}">{{page.date | date: '%Y/%m/%d'}}</time>
 		  <!-- <span id="busuanzi_container_page_pv"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span> -->
-		  </div>
+          </div>
         </div>
         {{page.content | markdownify}}
         <img src="{{site.imagepath}}/assets/img/Subscriptionimg.jpg" width="100%" height="100%">
@@ -31,7 +32,7 @@ layout: default
             <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://pinterest.com/pin/create/button/?url={{ site.url }}{{page.url}}&media={{site.url}}{{"/assets/img/" | prepend: site.baseurl | append : page.img}}&description={{snomnom.com}}" class="pin-it-button" count-layout="horizontal"><i class="fa fa-pinterest" aria-hidden="true"></i></a>         
           </div><!-- End Share -->				
-<div class="reward">
+	<div class="reward">
 	        <p></p>
 		<div class="reward-button">赏 <span class="reward-code">
 			<span class="wechat-code"> <img class="wechat-img wdp-appear" src="/assets/img/wechatimg.jpg"><b>微信打赏</b> </span>
@@ -50,7 +51,6 @@ layout: default
 	{% if page.comments == true and site.valine.enable %}
                 {% include valine_comments.html %}
 	{% endif %}
-	<!-- <hr style="height:1px;border:none;border-top:1px solid #d9d9d9;"> -->
 	      
       </div>
     </div> <!-- End Wrapper -->
