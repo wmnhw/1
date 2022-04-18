@@ -30,9 +30,6 @@ jianshu:
 juejin:
 csdn:
 
-# Newsletter
-mailchimp: # Add your MailChimp form identifier.
-
 # Disqus修改成你自己的
 discus_identifier: 
 # Add your discus identifier
